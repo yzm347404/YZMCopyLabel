@@ -419,10 +419,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: huang hong (G4BRM8Q47J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: huang hong (G4BRM8Q47J)";
 				INFOPLIST_FILE = YZMCopyLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = QT.YZMCopyLabel;
+				PRODUCT_BUNDLE_IDENTIFIER = yzm.project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f2b4e230-6cfc-48bb-95fd-dab751ff5b3e";
 			};
 			name = Debug;
 		};
@@ -430,10 +434,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: huang hong (G4BRM8Q47J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: huang hong (G4BRM8Q47J)";
 				INFOPLIST_FILE = YZMCopyLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = QT.YZMCopyLabel;
+				PRODUCT_BUNDLE_IDENTIFIER = yzm.project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f2b4e230-6cfc-48bb-95fd-dab751ff5b3e";
 			};
 			name = Release;
 		};
@@ -504,6 +512,7 @@
 				E05FAA9F1CECBA1100EA2153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E05FAAA01CECBA1100EA2153 /* Build configuration list for PBXNativeTarget "YZMCopyLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +521,7 @@
 				E05FAAA21CECBA1100EA2153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E05FAAA31CECBA1100EA2153 /* Build configuration list for PBXNativeTarget "YZMCopyLabelUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +530,7 @@
 				E05FAAA51CECBA1100EA2153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
