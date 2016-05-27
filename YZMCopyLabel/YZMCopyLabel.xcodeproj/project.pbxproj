@@ -426,7 +426,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yzm.project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f2b4e230-6cfc-48bb-95fd-dab751ff5b3e";
+				PROVISIONING_PROFILE = "1e2455f4-a732-4656-a96f-7e81de343be8";
 			};
 			name = Debug;
 		};
@@ -441,7 +441,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yzm.project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f2b4e230-6cfc-48bb-95fd-dab751ff5b3e";
+				PROVISIONING_PROFILE = "1e2455f4-a732-4656-a96f-7e81de343be8";
 			};
 			name = Release;
 		};
