@@ -52,14 +52,15 @@
 -(void)handleTap:(UIGestureRecognizer*) recognizer
 {
 #pragma mark -- 这一块不需要
-//    UIMenuItem *copy = [[UIMenuItem alloc] initWithTitle:@"复制" action:@selector(copy:)];
-//    [[UIMenuController sharedMenuController] setMenuItems:[NSArray arrayWithObjects:copy, nil]];
-//    UIMenuItem *cunItem = [[UIMenuItem alloc] initWithTitle:@"剪切" action:@selector(cut:)];
-//    [[UIMenuController sharedMenuController] setMenuItems:[NSArray arrayWithObjects:cunItem, nil]];
-    [self becomeFirstResponder];
+    UIMenuItem *copyItem = [[UIMenuItem alloc] initWithTitle:@"复制" action:@selector(copy:)];
+    UIMenuItem *cutItem = [[UIMenuItem alloc] initWithTitle:@"剪切" action:@selector(cut:)];
+    UIMenuItem *pasteItem = [[UIMenuItem alloc] initWithTitle:@"粘贴" action:@selector(paste:)];
+    [[UIMenuController sharedMenuController] setMenuItems:@[copyItem,cutItem,pasteItem]];
     [[UIMenuController sharedMenuController] setTargetRect:self.frame inView:self.superview];
     [[UIMenuController sharedMenuController] setMenuVisible:YES animated: YES];
+    [self becomeFirstResponder];
 }
+
 
 //针对于响应方法的实现
 -(void)copy:(id)sender
